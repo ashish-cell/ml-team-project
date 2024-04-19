@@ -6,8 +6,8 @@ import mlflow
 
 # Load processed data
 data = pd.read_csv('BostonHousing.csv')
-X = data.drop('LOG_PRICE', axis=1)
-y = data['LOG_PRICE']
+X = data.drop('medv', axis=1)
+y = data['medv']
 
 # Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
