@@ -4,6 +4,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 import mlflow
 
+mlflow.set_tracking_uri("/path/to/new/mlruns")
+
+
 # Load processed data
 data = pd.read_csv('BostonHousing.csv')
 X = data.drop('medv', axis=1)
