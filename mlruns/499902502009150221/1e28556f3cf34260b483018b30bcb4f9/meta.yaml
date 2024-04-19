@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ashishk/Box/UIUC/PD_workshop/ml-team-project/mlruns/499902502009150221/1e28556f3cf34260b483018b30bcb4f9/artifacts
+end_time: 1713544032233
+entry_point_name: ''
+experiment_id: '499902502009150221'
+lifecycle_stage: active
+run_id: 1e28556f3cf34260b483018b30bcb4f9
+run_name: merciful-hare-361
+run_uuid: 1e28556f3cf34260b483018b30bcb4f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713544021541
+status: 4
+tags: []
+user_id: Vatsal
