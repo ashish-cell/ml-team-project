@@ -15,7 +15,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # MLFlow: Initialize experiment logging
 mlflow.set_experiment('boston_housing_prediction')
 mlflow.start_run()
-mlflow.log_params({"test_size": 0.2, "random_state": 42})
+mlflow.log_params({"test_size": 0.1, "random_state": 42})
 
 # Model setup and training
 model = RandomForestRegressor(n_estimators=100, max_depth=10)
